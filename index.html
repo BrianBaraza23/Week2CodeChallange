@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>Flatacuties</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body>
+  <div class="logo">
+    <h1>Flatacuties</h1>
+    <p>Welcome to Flatacuties, the only official app that allows you to vote for your cutest animal here at moringa zoo!<br>
+       Select your favorite animal from the list below and give them as many votes as you like,<br>
+       Lets see if they will earn the bragging rights of being named the cutest of them all.</p>
+  </div>
+
+  <!-- characters -->
+  <div 
+    id="character-bar">
+  </div>
+
+  <!-- Character info -->
+  <div class="characterInfo">
+    <!-- Name -->
+    <p id="name">Name</p>
+    <!-- image -->
+    <img id="image" src="assets/dummy.jpg" alt="Character's Name"/>
+
+    <!-- Votes Form-->
+    <h4>Total Votes: <span id="vote-count">Votes Received</span></h4>
+    <form id="votes-form">
+      <input type="text" placeholder="Enter Votes" id="votes" name="votes" />
+      <input type="submit" value="Add Votes" />
+    </form>
+
+    <!--Reset Button-->
+    <button id="reset-btn">Reset Votes</button>
+  </div>
+
+    <!-- JS -->
+  <script src="index.js"></script>
+</body>
+</html>

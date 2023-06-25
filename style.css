@@ -1,0 +1,75 @@
+html {
+  font-family: 'Robot', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Juglebackgroud.jpg);
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+
+.logo{
+  text-align: center;
+  background-color: rgb(216, 176, 15);
+  color:rgb(255, 255, 255);
+  padding: 0.5em;
+}
+
+#character-bar {
+  height: 16vh;
+  background: rgba(8, 160, 122, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 4vh;
+}
+
+#character-bar span {
+
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  align-items: center;
+  color: aliceblue;
+}
+
+.characterInfo{
+  height: 100px;
+  padding: 30px;
+  font-size: 24px;
+  text-align: center;
+  color: aliceblue;
+}
+
+input[type="submit"], button {
+  background-color: rgb(210, 192, 33);
+  color: white;
+  font-size: 10px;
+  padding: 3px 20px 3px 20px;
+  font-family: 'Robot', sans-serif;
+}
+
+input[type="text"] {
+  font-size: 3vh;
+}
+
+#image{
+  width: 300px;
+  height: 300px;
+}
+
+#reset-btn{
+  margin-bottom: 10%;
+}
